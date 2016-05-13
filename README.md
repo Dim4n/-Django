@@ -4,6 +4,7 @@
 * mysql-python
 * djangorestframework
 * django-mptt
+* https://github.com/mbraak/django-mptt-admin
 * pytest
 * pytest-django
 * django-debug-toolbar
