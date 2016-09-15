@@ -24,3 +24,10 @@ git pull origin master
 git rm --cached path/to/file
 
 git rm --cached project/project/settings/local.py
+
+Hg улаживание конфликтов
+========================
+
+Чтобы выйти из vimdiff - :cq
+`hg resolve -t internal:other --all` to accept theirs and
+`hg resolve -t internal:local --all` to accept yours
