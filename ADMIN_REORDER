@@ -1,0 +1,44 @@
+`
+ADMIN_REORDER = (
+    {'app': 'products', 'models': (
+                                'products', {
+                                    'model': 'products.ProductsItem',
+                                    'model': 'products.ProductsArticlesItem',
+                                    'model': 'products.ExpertizeArticlesItem',
+                                    'model': 'products.ProductsDemoItem',
+                                }
+    )},
+    {'app': 'news', 'models': (
+                                'news', {
+                                    'model': 'news.NewsItem',
+                                    'model': 'news.EventsItem',
+                                }
+    )},
+    {'app': 'calc', 'models': (
+                                'calc', {
+                                    'model': 'calc.CaclDataItem',
+                                }
+    )},
+    {'app': 'contacts', 'models': (
+                                'contacts', {
+                                    'model': 'contacts.PartnersItem',
+                                }
+    )},
+    {'app': 'generic', 'models': (
+                                'generic', {
+                                    'model': 'generic.TextPage',
+                                }
+    )},
+    {'app': 'account', 'models': (
+                                'account', {
+                                    'model': 'account.AccountUser',
+                                }
+    )},
+    {'app': 'dicts', 'models': (
+                                'dicts', {
+                                    'model': 'dicts.DistrictItem',
+                                    'model': 'dicts.RegionsItem',
+                                }
+    )},
+)
+`
