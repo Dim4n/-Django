@@ -5,6 +5,7 @@
 * djangorestframework
 * django-mptt
 * https://github.com/mbraak/django-mptt-admin
+* django-modeladmin-reorder (https://pypi.python.org/pypi/django-modeladmin-reorder/) - порядок приложений в админке, пример конфига [ADMIN_REORDER](адрес://ссылки.здесь "ADMIN_REORDER")
 * pytest
 * pytest-django
 * django-debug-toolbar
