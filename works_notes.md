@@ -2,7 +2,7 @@
 Безопасный дамп данных Django-проекта
 =====================================
 
-python project/manage.py dumpdata --natural-foreign --exclude auth.permission --exclude contenttypes --indent 4 > dump.json
+python project/manage.py dumpdata --natural-foreign --exclude auth.permission --exclude contenttypes --exclude admin.logentry --indent 4 > dump.json
 
 Инициализция git репозитария
 ============================
