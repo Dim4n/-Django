@@ -25,15 +25,17 @@ class LoginForm(forms.Form):
     )
 ```
 
+template.html
+
 ```html
 <form action="/" method="post">
-		{% csrf_token %}
-		{% for field in form %}
-		<div class="form-group">
-		    <label for="{{ field.id_for_label }}" class="control-label">{{ field.label }}<sup>*</sup></label><br>
-		    {{ field }}
-    </div>
-    {% endfor %}
-    ...
+{% csrf_token %}
+{% for field in form %}
+<div class="form-group">
+<label for="{{ field.id_for_label }}" class="control-label">{{ field.label }}</label><br>
+{{ field }}
+</div>
+{% endfor %}
+...
 </form>
 ```
