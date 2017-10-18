@@ -67,10 +67,16 @@
 * django-pager
 * python-social-auth 
 
-Работа со статикой (static файлы для):
+# Работа со статикой (static файлы для)
+
 * django-jquery - (Jquery)
 * django-fancybox (Fancybox)
 * django-bootstrap-static - (Bootstrap)
 * django-bootstrap-themes - (Набор готовых тем для Bootstrap)
 * django-forms-bootstrap - (Формы для него)
 * django-bootstrap-pagination - (Паджинатор, страницы) 
+
+# Полезные статьи на Хабре по Django
+
+* https://habrahabr.ru/post/187312/ 5 полезных батареек для Django
+* https://habrahabr.ru/company/mailru/blog/328352/ 10 основных ошибок, совершаемых Django-разработчиками 
