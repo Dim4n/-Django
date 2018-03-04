@@ -137,6 +137,7 @@ index.html
                     }
                     $('#warn1').html(html);
                     $('#warn1').css('display', 'block');
+                    grecaptcha.reset(window.recapcha1);  // сбрасываем рекапчу после ошибки
                 }
             });
         });
