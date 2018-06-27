@@ -80,3 +80,7 @@
 
 * https://habrahabr.ru/post/187312/ 5 полезных батареек для Django
 * https://habrahabr.ru/company/mailru/blog/328352/ 10 основных ошибок, совершаемых Django-разработчиками 
+
+# Поддомены
+
+* http://django-subdomains.readthedocs.io/en/latest/
