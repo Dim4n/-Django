@@ -70,6 +70,13 @@ Host gitlab.com-account2
 :wq
 ```
 
+проверить, как подключается к аккаунту:
+
+```bash
+ssh -T gitlab.com-account1
+ssh -T gitlab.com-account2
+```
+
 отредактируем git-конфиг (для другого проекта - аналогично):
 
 ```bash
