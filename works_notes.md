@@ -40,3 +40,39 @@ Hg улаживание конфликтов
 `hg resolve -t internal:other --all` to accept theirs and
 `hg resolve -t internal:local --all` to accept yours
 ```
+
+Доступ к разным репозиториям на разных gitlab аккаунтам
+=======================================================
+
+Чтобы работать с разными проектами, находящимися в разных gitlab-аккаунтах,
+необходимо создать ключи:
+
+```bash
+ssh-keygen -f id_rsa_account1
+ssh-keygen -f id_rsa_account2
+```
+
+перенесем ключи в ~/.ssh директорию, выполним и добавим строки:
+
+```bash
+vi ~/.ssh/config
+
+Host gitlab.com-account1
+    HostName gitlab.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_account1
+
+Host gitlab.com-account2
+    HostName gitlab.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_account2
+    
+:wq
+```
+
+отредактируем git-конфиг (для другого проекта - аналогично):
+
+```bash
+[remote "origin"]
+	url = git@gitlab.com-account1:account1/name_project.git
+```
